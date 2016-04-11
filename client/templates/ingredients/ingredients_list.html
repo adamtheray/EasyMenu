@@ -1,0 +1,11 @@
+<template name="IngredientsList">
+  <div class="post-page page">
+    {{#each ingredients}}
+      <div class="post">
+        <div class="post-content">
+          <h3>{{name}}</h3><span>{{measurement}}</span>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</template>
